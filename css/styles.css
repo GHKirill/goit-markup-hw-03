@@ -73,6 +73,9 @@ p,
 .nav {
   justify-content: left;
 }
+.nav .logo {
+  padding: 20px 0;
+}
 .logo.link {
   margin-right: 93px;
 }
@@ -86,7 +89,7 @@ p,
   padding-bottom: 30px;
 }
 .nav .item:not(:last-child) {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 .nav-link.accent {
   color: var(--accent-color);
@@ -99,6 +102,7 @@ p,
   cursor: pointer;
 }
 .contacts .item:not(:last-child) {
+  display: inline-block;
   margin-right: 50px;
 }
 .nav-contact {
@@ -106,6 +110,7 @@ p,
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  padding: 25px 0;
 }
 
 /* Hero */
