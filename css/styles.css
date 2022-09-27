@@ -60,9 +60,6 @@ p,
 .header {
   height: 80px;
 }
-/* .header .container {
-  padding: 0 15px;
-} */
 .header .container,
 .nav,
 .header .list {
