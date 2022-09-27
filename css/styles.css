@@ -34,7 +34,7 @@ p,
   margin: 0;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -60,9 +60,9 @@ p,
 .header {
   height: 80px;
 }
-.header .container {
+/* .header .container {
   padding: 0 15px;
-}
+} */
 .header .container,
 .nav,
 .header .list {
@@ -334,6 +334,7 @@ p,
 }
 .project .item {
   display: inline-block;
+  width: 370px;
   border: 1px solid var(--gray-color-photo-border);
 }
 .project-photo {
